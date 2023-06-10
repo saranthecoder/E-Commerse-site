@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Web Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+
+    <div class="container">
+        
+        <div class="navbar">
+            <div class="logo">
+                <img src="./imageslogo/Saranlogoup.png" width="170px" height="120px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="./pages/products.html">Products</a></li>
+                    <li><a href="#foot">About</a></li>
+                    <!-- <li><a href="#">Contact</a></li> -->
+                    <li><a href="./pages/account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="./pages/cart.html"><img src="./images/cart.png" width="30px" height="30px"></a>
+            <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>Awsome Products<br>A New Style!</h1>
+                <p>Discover Your Perfect Match - Shop Now at Saran Fashions <br>Embrace the Extraordinary - Find Unique Treasures</p>
+                <a href="#explore" class="btn">Explore Now &#8594</a>
+            </div>
+            <div class="col-2">
+                <img src="./imageslogo/header.png">
+            </div>
+        </div>
+    </div>  
+</div>
+    
+    <!-- ======================== Features Categories ====================== -->
+    <!-- <div class="categories">
+        <div class="small-container" >
+            <div class="row">
+                <div class="col-3">
+                    <img src="./images//category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./images//category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="./images//category-3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+        <!-- ======================== Features Products ====================== -->
+<div class="whole">
+    <div class="small-container"  id="explore">
+        <h2 class="title">Features Products</h2>
+        <div class="row">
+            <div class="col-4">
+               <a href="./pages/product_details_1.html"><img src="./imageslogo/prod-1.jpg" alt="product-1"></a> 
+                <h4>MANQ Men Black Solid Three-Piece Formal Suit</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p> ₹3,879</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./imageslogo/prod-2.jpg " height="320px">
+                <h4>BRUTON Men's World shoe-01 Running, Sports, Gym</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p> ₹229</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./imageslogo/prod-3.webp" height="320px">
+                <h4>APPLE iPhone 14 (Midnight, 128 GB)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>₹68,999</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./imageslogo/prod-4.webp" height="320px">
+                <h4>ANT PC Intel i3 12100F 8 GB RAM/Nvidia GTX 1650 </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>₹35,990</p>
+            </div>
+
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="./images/product-5.jpg" alt="">
+                <h4>Red Primted T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$5790.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./images/product-6.jpg" alt="">
+                <h4>Red Primted T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$9450.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./images/product-7.jpg" alt="">
+                <h4>Red Primted T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>$5540.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="./images/product-8.jpg" alt="">
+                <h4>Red Primted T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>$6450.00</p>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="./images//product-9.jpg" alt="">
+                    <h4>Red Primted T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$50070.00</p>
+                </div>
+    
+                <div class="col-4">
+                    <img src="./images//product-10.jpg" alt="">
+                    <h4>Red Primted T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$40050.00</p>
+                </div>
+    
+                <div class="col-4">
+                    <img src="./images/product-11.jpg" alt="">
+                    <h4>Red Primted T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <p>$54000.00</p>
+                </div>
+    
+                <div class="col-4">
+                    <img src="./images/product-12.jpg" alt="">
+                    <h4>Red Primted T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p>$65000.00</p>
+                </div>
+    
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ========================== OFFER ============================ -->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./imageslogo/applewatch-removebg-preview.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclisively Available in SaranStore</p>
+                    <h1>Apple Watch SE</h1>
+                    <small> (2nd Gen) [GPS 40 mm] Smart Watch Aluminium Case & Midnight Sport Band. Fitness & Sleep Tracker, Crash Detection, Heart Rate Monitor</small>
+                    <a href="#"class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ================================ testimonial ========================== -->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eligendi eveniet, maxime delectus reiciendis ipsum quasi ducimus sunt repudiandae magni voluptatibus. Accusamus deserunt odit molestias ipsam enim soluta tenetur exercitationem!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <img src="./images/user-1.png" alt="">
+                    <h3>Sean Parker</h3>
+                </div>
+
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eligendi eveniet, maxime delectus reiciendis ipsum quasi ducimus sunt repudiandae magni voluptatibus. Accusamus deserunt odit molestias ipsam enim soluta tenetur exercitationem!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <img src="./images/user-2.png" alt="">
+                    <h3>Mikl Parker</h3>
+                </div>
+
+                <div class="col-3">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eligendi eveniet, maxime delectus reiciendis ipsum quasi ducimus sunt repudiandae magni voluptatibus. Accusamus deserunt odit molestias ipsam enim soluta tenetur exercitationem!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <img src="./images/user-3.png" alt="">
+                    <h3>Joe manr</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================ Brands ================= -->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="./images/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./images/logo-philips.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./images/logo-godrej.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./images/logo-oppo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="./images/logo-paypal.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- ============================ Footer ========================== -->
+
+    <div class="footer" id="foot">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download the app from playstore or google</p>
+                    <div class="app-logo">
+                        <img src="./images/play-store.png" alt="">
+                        <img src="./images/app-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="./imageslogo/Saranlogoup.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae beatae aliquam earum impedit minima cum voluptas officiis tenetur sit numquam totam ipsum quod autem vero temporibus eius, dolore doloremque doloribus.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blogs Posts</li>
+                        <li>Return Policy</li>
+                        <li>Join Affilite</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy;Copyright 2023 - saranTheCodder</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
